@@ -11,11 +11,11 @@ const About = () => {
         <>
             <section className="p-4 h-[100vh] text-center font-bold grid place-items-center" style={{'background': `url(${darkAbstract}) no-repeat center / cover`,}}>
                 <div className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
-                    <h1 className="text-5xl md:text-6xl mb-1">
+                    <h1 className="text-[2rem] sm:text-5xl md:text-6xl  sm:mb-1">
                         <ReactTyped strings={["Olá, Sou"]} typeSpeed={90} showCursor={false} startDelay={2000}/>
                     </h1>
-                    <h1 className="text-6xl md:text-8xl mb-1"><ReactTyped strings={["Jonathas Dias"]} showCursor={false} typeSpeed={100} startDelay={3000}/></h1>
-                    <h3 className="text-lg mb-1"><ReactTyped strings={["Desenvolvedor Web Front-End"]} showCursor={false} typeSpeed={100} startDelay={5000}/></h3>
+                    <h2 className="text-[3rem] sm:text-6xl md:text-8xl  sm:mb-1"><ReactTyped strings={["Jonathas Dias"]} showCursor={false} typeSpeed={100} startDelay={3000}/></h2>
+                    <h3 className="text-base sm:text-lg  sm:mb-1"><ReactTyped strings={["Desenvolvedor Web Front-End"]} showCursor={false} typeSpeed={100} startDelay={5000}/></h3>
                 </div>
             </section>
 
