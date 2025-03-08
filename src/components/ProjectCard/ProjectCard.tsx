@@ -10,7 +10,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <article className="relative p-3 border border-blue-700 rounded-xl overflow-hidden
         before:content-[''] before:absolute before:top-0 before:left-0 before:bg-neutral-400 before:w-full before:h-full
         before:opacity-40 before:z-[-1] z-[1]">
-            <figure className="h-52 border ">
+            <figure className="h-52">
                 <img src={project.image} alt={project.description} className="rounded h-full w-full"/>
             </figure>
 
