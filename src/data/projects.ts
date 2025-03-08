@@ -4,6 +4,7 @@ import loginsignup from "../imgs/imgs_projects/loginsignup.png"
 import playmusic from "../imgs/imgs_projects/playmusic.png"
 import spacenews from "../imgs/imgs_projects/noticias.png"
 import previsaotempo from "../imgs/imgs_projects/previsaotempo.png"
+import cep from "../imgs/imgs_projects/cep.png"
 import { ProjectsType } from "../types/ProjectsType";
 
 const projects: ProjectsType = [
@@ -48,6 +49,13 @@ const projects: ProjectsType = [
         github: "https://github.com/jonathasdias/previsao-do-tempo.git",
         view: "https://previsao-tempo-cidade.netlify.app/",
         image: previsaotempo,
+    },
+    {
+        name: "Consulta de cep e auto complete formulario",
+        description: "Projeto de consulta de cep e auto complete de formulario através do cep. Desenvolvido com html, javascript e tailwindcss.",
+        github: "https://github.com/jonathasdias/consulta-de-cep-e-auto-complete-formulario.git",
+        view: "https://check-zipcode.netlify.app/",
+        image: cep,
     },
 ]
 
