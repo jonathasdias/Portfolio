@@ -4,15 +4,18 @@ import computador from "../../imgs/computador.png"
 import tools from "../../data/tools";
 import { Link } from "react-router";
 import darkAbstract from "../../imgs/backgrounds/dark-abstract.jpg"
+import { ReactTyped } from "react-typed"
 
 const About = () => {
     return ( 
         <>
             <section className="p-4 h-[100vh] text-center font-bold grid place-items-center" style={{'background': `url(${darkAbstract}) no-repeat center / cover`,}}>
                 <div className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
-                    <h1 className="text-5xl md:text-6xl mb-1">Olá, Sou</h1>
-                    <h1 className="text-6xl md:text-8xl mb-1">Jonathas Dias</h1>
-                    <h3 className="text-lg mb-1">Desenvolvedor Web Front-End</h3>
+                    <h1 className="text-5xl md:text-6xl mb-1">
+                        <ReactTyped strings={["Olá, Sou"]} typeSpeed={90} showCursor={false} startDelay={2000}/>
+                    </h1>
+                    <h1 className="text-6xl md:text-8xl mb-1"><ReactTyped strings={["Jonathas Dias"]} showCursor={false} typeSpeed={100} startDelay={3000}/></h1>
+                    <h3 className="text-lg mb-1"><ReactTyped strings={["Desenvolvedor Web Front-End"]} showCursor={false} typeSpeed={100} startDelay={5000}/></h3>
                 </div>
             </section>
 
