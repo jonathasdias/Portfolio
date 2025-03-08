@@ -6,7 +6,6 @@ const Projects = () => {
 
     // Lembrar de confirar as variaveis de ambiente antes de colocar no netlify e rodar npm run build e colocar no netlify
     // Adicionar animação de maiquina de escrever no about
-    // E resposividade em todas as páginas
     // Olhar console em todas as pagina e ver se encontra erro
 
     return ( 

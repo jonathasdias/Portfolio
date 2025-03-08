@@ -9,7 +9,7 @@ import vite from '../imgs/icons/vite.png'
 import git from '../imgs/icons/git.png'
 import npm from '../imgs/icons/npm.png'
 import vscode from '../imgs/icons/vscode.png'
-import { ToolsType } from '../types/toolsType'
+import { ToolsType } from '../types/ToolsType'
 
 const tools:ToolsType = [
     {
