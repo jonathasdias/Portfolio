@@ -1,15 +1,13 @@
 import { FaGithub, FaLinkedin, FaTools } from "react-icons/fa";
 import { BiSolidDashboard } from "react-icons/bi";
-import computador from "../../imgs/computador.png"
 import tools from "../../data/tools";
 import { Link } from "react-router";
-import darkAbstract from "../../imgs/backgrounds/dark-abstract.jpg"
 import { ReactTyped } from "react-typed"
 
 const About = () => {
     return ( 
         <>
-            <section className="p-4 h-[100vh] text-center font-bold grid place-items-center" style={{'background': `url(${darkAbstract}) no-repeat center / cover`,}}>
+            <section className="p-4 h-[100vh] text-center font-bold grid place-items-center" style={{'background': "url(/dark-abstract.jpg) no-repeat center / cover",}}>
                 <div className="bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text">
                     <h1 className="text-[2rem] sm:text-5xl md:text-6xl  sm:mb-1">
                         <ReactTyped strings={["Olá, Sou"]} typeSpeed={90} showCursor={false} startDelay={2000}/>
@@ -70,7 +68,7 @@ const About = () => {
                 </article>
 
                 <figure className="w-1/2">
-                    <img src={computador} alt="imagems computador" className="h-full" />
+                    <img src="/computador.png" alt="imagems computador" className="h-full" />
                 </figure>
             </section>
         </>

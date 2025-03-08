@@ -1,5 +1,4 @@
 import { useState } from "react";
-import darkAbstract from "../../imgs/backgrounds/dark-abstract.jpg"
 import Load from "../../components/Load"
 
 const Curriculum = () => {
@@ -7,7 +6,7 @@ const Curriculum = () => {
     const [isLoading, setIsLoading] = useState(true);
 
     return ( 
-        <div className="w-full bg-red-300 h-dvh flex justify-center items-center" style={{'background': `url(${darkAbstract}) center / cover`,}}>
+        <div className="w-full bg-red-300 h-dvh flex justify-center items-center" style={{'background': "url(/dark-abstract.jpg) center / cover",}}>
             
             {isLoading && <Load />}
 

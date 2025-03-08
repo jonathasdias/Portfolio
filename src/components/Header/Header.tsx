@@ -27,7 +27,7 @@ const Header = () => {
     return ( 
         <header className={`h-28 w-full text-sm md:text-lg px-4 text-blue-700 transition-all duration-300 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-y-2 z-10
         ${isFixed ? "fixed top-0 left-0 shadow-lg border-b border-blue-700" : "absolute bg-transparent"}
-        ${isVisible ? "bg-black" : "bg-transparent"}`}>
+        ${isVisible ? "bg-[#09070A]" : "bg-transparent"}`}>
 
             <div className="flex flex-nowrap">
                 <a href="https://github.com/jonathasdias" target="_blank" className="flex items-center gap-x-1 border-r py-2 px-4 hover:underline hover:text-blue-600">
