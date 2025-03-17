@@ -1,6 +1,7 @@
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useEffect, useState } from "react";
+import curriculoPDF from "../../assets/Jonathas_Dias_Desenvolvedor-Web-FrontEnd.pdf"; 
 
 const Header = () => {
     const [isFixed, setIsFixed] = useState<boolean>(false);
@@ -44,7 +45,7 @@ const Header = () => {
             <nav className="font-bold">
                 <NavLink to="/" className="aria-[current=page]:text-blue-400 hover:text-blue-400 py-2 px-4">Sobre</NavLink>
                 <NavLink to="/projects" className="aria-[current=page]:text-blue-400 hover:text-blue-400 py-2 px-4">Projetos</NavLink>
-                <NavLink to="/curriculo" className="aria-[current=page]:text-blue-400 hover:text-blue-400 py-2 px-4">Curriculo</NavLink>
+                <Link to={curriculoPDF} target="_blank" className="hover:text-blue-400 py-2 px-4">Curriculo</Link>
             </nav>
         </header>
      );
